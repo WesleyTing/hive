@@ -1,0 +1,20 @@
+// Resets
+
+/* box-sizing reset */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* end box-sizing reset */
+  /* Img reset */
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  body {
+    margin: 0;
+}

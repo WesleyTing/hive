@@ -1,0 +1,13 @@
+// Type Styles
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&family=Raleway:wght@200;400;700&display=swap');
+
+
+body {
+    font-family: $body-font;
+    color: black;
+}
+
+h1, h2 {
+    font-family: $title-font;
+}
