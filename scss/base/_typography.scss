@@ -1,0 +1,14 @@
+// Type Styles
+
+// font-family: 'Noto Sans JP', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+
+body {
+    font-family: $body-font;
+    color: black;
+}
+
+h1, h2 {
+    font-family: $title-font;
+}

@@ -1,0 +1,49 @@
+/* Hero Styles */
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 16vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero h2 {
+    font-size: 7vw;
+    margin: 0;
+}
+
+.hero-homepage {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/homepage/banner.jpg');
+}
+
+// About Page
+.hero-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/about/banner.jpg');
+}
+
+// Pricing
+.hero-pricing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/pricing/banner.jpg');
+}
+
+// Services
+.hero-services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/services/banner.jpg');
+}
+
+// Contact
+.hero-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/contact/banner.jpg');
+}
