@@ -9,6 +9,7 @@ html {
     box-sizing: inherit;
   }
   /* end box-sizing reset */
+  
   /* Img reset */
   img {
       max-width: 100%;
@@ -17,4 +18,9 @@ html {
 
   body {
     margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, p {
+  margin: 0;
 }
