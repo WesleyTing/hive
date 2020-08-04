@@ -1,21 +1,14 @@
 // Type Styles
 
-// Header Font
 // font-family: 'Noto Sans JP', sans-serif;
-// Body Font
 // font-family: 'Raleway', sans-serif;
+
 
 body {
     font-family: $body-font;
     color: black;
 }
 
-h1 {
+h1, h2 {
     font-family: $title-font;
-    font-weight: normal;
-}
-
-h2, h3 {
-    font-family: $title-font;
-    font-size: 2em;
 }
