@@ -1,7 +1,72 @@
-.icon {
-    background: url('');
-    height: 16px;
-    width: 16px;
+.phone {
+  display: flex;
+  align-items: center;
+  padding-bottom: 32px;
+
+  .phone-icon {
+    content: url('/images/icons/phone-icon.png');
     display: block;
-    /* Other styles here */
   }
+
+  .phone-text {
+    margin-left: 36px;
+  }
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding-bottom: 32px;
+
+  .email-icon {
+    content: url('/images/icons/email-icon.png');
+    display: block;
+  }
+
+  .email-text {
+    margin-left: 36px;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+
+  .twitter-icon {
+    content: url('/images/icons/twitter-icon.png');
+    display: block;
+  }
+  
+  .facebook-icon {
+    content: url('/images/icons/facebook-icon.png');
+    display: block;
+  }
+  
+  .instagram-icon {
+    content: url('/images/icons/instagram-icon.png');
+    display: block;
+  }
+  
+  .youtube-icon {
+    content: url('/images/icons/youtube-icon.png');
+    display: block;
+  }
+  
+}
+
+.phone-icon,
+.email-icon,
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.youtube-icon {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}
+
+
+
+
+
