@@ -10,12 +10,12 @@ body {
     color: black;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: $title-font;
     // font-weight: normal;
+    text-align: center;
 }
 
 h2, h3 {
-    font-family: $title-font;
     font-size: 2em;
 }
