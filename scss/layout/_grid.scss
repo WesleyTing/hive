@@ -1,10 +1,12 @@
 // Homepage
 .upcoming-events-grid {
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .event-dubhaus {
-    border-radius: 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
@@ -15,7 +17,6 @@
 }
 
 .event-dee {
-    border-radius: 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
@@ -26,7 +27,6 @@
 }
 
 .event-gnaw {
-    border-radius: 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
@@ -37,7 +37,6 @@
 }
 
 .event-pop {
-    border-radius: 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
@@ -48,5 +47,11 @@
 }
 
 .date {
-    background-color: #0E87CC;
+    background-color: #069AF3;
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
