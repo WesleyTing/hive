@@ -1,3 +1,9 @@
+.upcoming-events-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .upcoming-events-grid {
     align-items: center;
 }
@@ -20,5 +26,6 @@
 @media (min-width: 1000px) {
     .upcoming-events-grid {
         display: flex;
+        flex-direction: row;
     }
 }
