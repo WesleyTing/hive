@@ -56,3 +56,15 @@
     font-size: 15px;
     width: 50%;
 }
+
+.event-image-gallery {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .event-image-gallery {
+        display: block;
+        display: grid;
+    }
+
+}
