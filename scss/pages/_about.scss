@@ -47,3 +47,21 @@
     margin-right: auto;
     width: 26%;
 }
+
+.about-doug, .about-Jaime, .about-wayne {
+    width: 300px;
+}
+
+@media (min-width: 720px) {
+
+    .about-doug, .about-Jaime, .about-wayne {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .about-section {
+        display: flex;
+        width: 50%;
+    }
+}
