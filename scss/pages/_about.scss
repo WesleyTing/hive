@@ -1,6 +1,6 @@
 // About Page
 .hero-about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/about/banner.jpg');
+    background-image: $blackOverlay, url('/images/about/banner.jpg');
 
     h1{
         padding: 12px;
