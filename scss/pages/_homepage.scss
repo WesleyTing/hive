@@ -3,7 +3,7 @@
 }
 
 .event-dubhaus, .event-dee, .event-gnaw, .event-pop {
-    width: 300px;
+    width: 250px;
 }
 
 @media (min-width: 720px) {
@@ -20,6 +20,5 @@
 @media (min-width: 1000px) {
     .upcoming-events-grid {
         display: flex;
-        flex-direction: column;
     }
 }
