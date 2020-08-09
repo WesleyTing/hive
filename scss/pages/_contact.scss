@@ -2,3 +2,40 @@
 .hero-contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/contact/banner.jpg');
 }
+
+.intro p {
+    padding: 10px; 
+}
+
+.contact-form-name,
+.contact-form-email,
+.contact-form-date,
+.contact-form-service,
+.contact-form-guests,
+.contact-form-type,
+.contact-form-message {
+    margin-bottom: 20px;
+
+    input,
+    select {
+        font-family: $body-font;
+        padding: 5px 8px 5px 8px;
+        font-size: 16px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    select {
+        margin-bottom: 20px;
+        padding-right: 40px;
+    }
+
+}
+
+
+@media (min-width: 320px) {
+    .intro {
+        text-align: center;
+    }
+}
+

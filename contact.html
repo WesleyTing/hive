@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HIVE | Homepage</title>
+    <title>HIVE | Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
@@ -43,31 +43,70 @@
     <article class="intro">
         <h2>Get In Touch</h2>
         <p>Thank you for reaching out!</p>
-        We will get back to you as soon as possible.
+        <p>We'll get back to you as soon as possible.</p>
     </article>
+    <section class="contact-form">
+        <form action="/" method="POST">
+            <div class="contact-form-content">
+                <div class="contact-form-name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="contact-form-email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="contact-form-date">
+                    <label for="date">Event Date</label>
+                    <input type="text" name="date" placeholder="MM-DD-YYYY" required pattern="(?:19|20)\[0-9\]{2}-(?:(?:0\[1-9\]|1\[0-2\])-(?:0\[1-9\]|1\[0-9\]|2\[0-9\])|(?:(?!02)(?:0\[1-9\]|1\[0-2\])-(?:30))|(?:(?:0\[13578\]|1\[02\])-31))"/>
+                </div>
+                <div class="contact-form-service">
+                    <label for="service">Service Length</label>
+                    <input type="text" id="service" name="service">
+                </div>
+                <div class="contact-form-guests">
+                    <label for="guests">Guests</label>
+                    <input type="text" id="guests" name="guests">
+                </div>
+                <div class="contact-form-type">
+                    <label for="type">Type of Service</label>
+                    <select name="type" id="type">
+                        <option value="wedding">Wedding</option>
+                        <option value="celebration">Celebration</option>
+                        <option value="company-event">Company Event</option>
+                        <option value="seasonal-event">Seasonal Event</option>
+                    </select>
+                    <div class="contact-form-message">
+                        <label for="Message">Message</label>
+                        <input type="text" id="message" name="message">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
 </main>
 </div> <!-- end of page content wrap-->
 <footer>
     <div class="phone">
-    <i class='phone-icon'></i>
-    <p class="phone-text">1-123-456-7890</p>
+        <i class='phone-icon'></i>
+        <p class="phone-text">1-123-456-7890</p>
     </div>
     <div class="email">
-    <i class='email-icon'></i>
-    <p class= email-text>hive@hive.co</p>
+        <i class='email-icon'></i>
+        <p class= email-text>hive@hive.co</p>
     </div>
     <div class="footer-title">HIVE</div>
     <div class="social-media">
-    <i class='twitter-icon'></i>
-    <i class='facebook-icon'></i>
-    <i class='instagram-icon'></i>
-    <i class='youtube-icon'></i>
+        <i class='twitter-icon'></i>
+        <i class='facebook-icon'></i>
+        <i class='instagram-icon'></i>
+        <i class='youtube-icon'></i>
     </div>
     <form class="email-form" action="#0">
         <div class="form-border">
-        <label for="email"></label>
-        <input type="email" id="email" placeholder="Email" name="email">
-        <button class="sign-up" type="submit">SIGN UP</button>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <button class="sign-up" type="submit">SIGN UP</button>
         </div>
     </form>
     <p class="copyright">&copy; Copyright Hive. 2020</p>
