@@ -16,6 +16,9 @@ $line-height: 1.4;
 
 // Breakpoints
 $mobileMQ: 320px;
-$TabletMQ: 600px;
-$DesktopMQ: 800px;
+$tabletMQ: 600px;
+$desktopMQ: 800px;
 
+// Image overlays
+$blueOverlay: linear-gradient(rgba(44, 188, 255, 0.5),rgba(59, 193, 255, 0.5));
+$blackOverlay: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
