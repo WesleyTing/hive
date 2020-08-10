@@ -33,6 +33,22 @@
     .upcoming-events-grid {
         display: flex;
         flex-direction: row;
+        width: 120%;
+        margin-left: auto;
+        margin-left: -87px;
+        margin-bottom: 30px;
+    }
+
+    .date {
+        margin-left: 48px;
+    }
+}
+
+@media (min-width: 1920px) {
+    // Upcoming events section
+    .upcoming-events-grid {
+        display: flex;
+        flex-direction: row;
         width: 75%;
         margin-left: 210px;
         margin-bottom: 30px;
