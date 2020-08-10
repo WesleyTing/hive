@@ -32,31 +32,37 @@
         background-repeat: no-repeat;
 
         @media (min-width: $desktopMQ) {
-            // display: inline-block;
-            height: 100vh;
+            height: 80vh;
             width: 23%;
-            margin: 0;
+            position: relative;
         }
     
         figure {
             margin: 0;
             figcaption {
                 margin: 18px;
+                @media (min-width: $desktopMQ) {
+                    position: absolute;
+                    top: 40%;
+                    left: 0;
+                    right: 0;
+                }
             }
         }
         
         h3 {
             font-size: 1.5em;
+            @media (min-width: $desktopMQ) {
+                position: absolute;
+                top: 20%;
+                left: 0;
+                right: 0;
+            }
         }
     }
 
 
 }
-
-
-
-
-
 
 
 // Image backgrounds
@@ -89,5 +95,15 @@
 
     @media (min-width: $desktopMQ) {
         background-image: $blackOverlay, url('/images/services/services-04.jpg');
+    }
+}
+
+.service-wedding,
+.service-celebrations,
+.service-company,
+.service-seasonal {
+    transition: transform 0.5s;
+    &:hover{
+        transform: scale(1.1);
     }
 }
