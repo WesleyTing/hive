@@ -6,7 +6,6 @@ header a {
 }
 
 .top-bar {
-    background-color: rgba(0, 0, 0, 0.479);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +14,7 @@ header a {
     padding: 5px 20px;
     position: fixed;
     z-index: 999;
+    transition: all 1s ease;
 }
 
 .top-bar img{
