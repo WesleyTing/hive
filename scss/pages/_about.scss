@@ -1,9 +1,72 @@
 // About Page
 .hero-about {
-    background-image: $blackOverlay, url('/images/about/banner.jpg');
-
+    background-image:  $blackOverlay, url('/images/about/banner.jpg');
+    
     h1{
         padding: 12px;
     }
 }
 
+// Images section...
+.about-doug {
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 15px;
+}
+
+.about-Jaime {
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 15px;
+}
+
+.about-wayne {
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 15px;
+}
+
+.about-section {
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 26%;
+}
+
+.about-doug, .about-Jaime, .about-wayne {
+    width: 230px;
+}
+
+@media (min-width: 720px) {
+
+    .about-section {
+        margin-left: 80px;
+    }
+
+    .about-doug, .about-Jaime, .about-wayne {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .about-section {
+        display: flex;
+        width: 50%;
+        margin-left: 440px;
+    }
+}
