@@ -3,3 +3,34 @@
     background-image: $blackOverlay, url('/images/homepage/banner.jpg');
     }
 
+.upcoming-events-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming-events-grid {
+    align-items: center;
+}
+
+.event-dubhaus, .event-dee, .event-gnaw, .event-pop {
+    width: 250px;
+}
+
+@media (min-width: 720px) {
+
+    .event-dubhaus, .event-dee, .event-gnaw, .event-pop {
+        width: 400px;
+    }
+
+    .date {
+        margin-left: 103px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .upcoming-events-grid {
+        display: flex;
+        flex-direction: row;
+    }
+}
