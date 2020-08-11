@@ -3,8 +3,27 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/contact/banner.jpg');
 }
 
-.intro p {
-    padding: 10px; 
+.intro {
+
+    p {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+    @media (min-width: $mobileMQ) {
+        text-align: center;
+    } 
+
+    @media (min-width: $tabletMQ){
+        text-align: center;
+    }
+
+}
+
+.contact-form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-form-name,
@@ -12,30 +31,43 @@
 .contact-form-date,
 .contact-form-service,
 .contact-form-guests,
-.contact-form-type,
+.contact-form-type { 
+    margin-bottom: 20px;
+    padding: 5px;
+
+    input {
+        font-family: $body-font;
+        padding: 10px 8px 5px 10px;
+        font-size: 16px;
+        margin-top: 5px;
+        display: block;
+        border: 0;
+        box-shadow: 0 0 15px 4px #7070704a;
+    }
+
+
+    select {
+        font-family: $body-font;
+        padding: 10px 8px 5px 10px;
+        font-size: 16px;
+        margin-top: 5px;
+        display: block;
+        border: 0;
+        box-shadow: 0 0 15px 4px #7070704a;
+    }
+}
+
 .contact-form-message {
     margin-bottom: 20px;
 
-    input,
-    select {
+    input {
         font-family: $body-font;
-        padding: 5px 8px 5px 8px;
+        padding: 10px 8px 5px 10px;
         font-size: 16px;
-        display: block;
         margin-top: 5px;
-    }
-
-    select {
-        margin-bottom: 20px;
-        padding-right: 40px;
+        display: block;
+        border: 0;
+        box-shadow: 0 0 15px 4px #7070704a;
     }
 
 }
-
-
-@media (min-width: 320px) {
-    .intro {
-        text-align: center;
-    }
-}
-
