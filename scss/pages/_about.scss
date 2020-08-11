@@ -7,12 +7,16 @@
     }
 }
 
+.about-content-wrap {
+    align-items: center;
+}
+
 // Images section...
 .about-doug {
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
     margin-right: 30px;
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -23,7 +27,7 @@
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
     margin-right: 30px;
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -34,7 +38,7 @@
     border: 1px solid #BFBFBF;
     background-color: white;
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
     margin-right: 30px;
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -44,8 +48,16 @@
 .about-section {
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
-    width: 26%;
+    width: 30%;
+    margin-left: -60px;
+}
+
+.about-section h2 {
+    font-size: 25px;
+}
+
+.about-section p {
+    font-size: 12px;
 }
 
 .about-doug, .about-Jaime, .about-wayne {
@@ -63,10 +75,11 @@
     }
 }
 
+
 @media (min-width: 1000px) {
     .about-section {
         display: flex;
-        width: 50%;
-        margin-left: 440px;
+        width: 110%;
+        margin-left: -85px;
     }
 }

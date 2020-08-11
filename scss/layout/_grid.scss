@@ -60,12 +60,77 @@
 .event-image-gallery {
     display: none;
 }
-
+// Desktop view
 @media (min-width: 1000px) {
+    // Image gallery for djs
     .event-image-gallery {
         display: block;
         display: grid;
+    }
+
+    .image-gallery {
+        display: grid;
+        position: relative;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .image-01 img {
+        width: 255px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    
+    .image-02 img {
+        max-width: 420px;
+        height: 300px;
+        margin-left: -117px;
+    }
+    
+    .image-03 img {
+        max-width: 200%;
+        height: 200px;
+        margin-left: 35px;
+        margin-top: -15px;
+    }
+
+}
+
+@media (min-width: 1920px) {
+    // Image gallery for djs
+    .event-image-gallery {
+        display: block;
+        display: grid;
+    }
+
+    .image-gallery {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-01 img {
+        width: 310px;
+        height: 350px;
+        margin-left: 430px;
+    }
+    
+    .image-02 img {
+        max-width: 470px;
+        height: 350px;
+        margin-left: -120px;
+    }
+    
+    .image-03 img {
+        max-width: 200%;
+        height: 200px;
+        margin-left: 430px;
+        margin-top: -15px;
     }
 
 }
