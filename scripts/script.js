@@ -37,9 +37,9 @@ $(window).scroll(function () {
 
 $(window).scroll(function () {
 	if ($(window).scrollTop() >= 500) {
-	$('nav.ul').css('background','black');
+	$('nav').css('background','black');
 	} else {
-	$('nav.ul').css('background','transparent');
+	$('nav').css('background','transparent');
 	}
 	});
 
