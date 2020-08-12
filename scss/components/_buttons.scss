@@ -1,3 +1,5 @@
+
+
 .button {
     background-color: #6CD0FF;
     border: none;
@@ -27,4 +29,17 @@
     // margin-left: 16px;
     position: absolute;
     right: 1px;
+}
+
+.submit-button {
+  padding: 10px;
+  border: none;
+  background-color: $colorlight;
+  color: white;
+  font-family: $body-font;
+  font-weight: 600;
+  border-radius: 3px;
+  width: 130px;
+  height: 45px;
+  text-transform: uppercase;
 }
