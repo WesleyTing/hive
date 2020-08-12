@@ -2,11 +2,6 @@
 const body = document.body;
 const btn = document.querySelector('.nav-button');
 
-<<<<<<< Updated upstream
-btn.addEventListener('click', function(){
-    body.classList.toggle('show');
-});
-=======
 const mql = window.matchMedia('(min-width: 700px)');
 
 mql.addListener(removeTransition);
@@ -171,4 +166,3 @@ $(document).ready(function() {
 
 
     
->>>>>>> Stashed changes
