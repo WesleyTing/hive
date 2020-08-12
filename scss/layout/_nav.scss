@@ -1,7 +1,13 @@
 // Main Navigation Styles
 
+<<<<<<< Updated upstream
 header a {
     text-decoration: none;
+=======
+// Header Style
+
+header {
+>>>>>>> Stashed changes
     color: white;
 }
 
@@ -37,10 +43,41 @@ header a {
     outline: none;
 }
 
+<<<<<<< Updated upstream
 .nav-button:hover {
     color: rgb(255, 188, 0);
     transition: color 1s ease;
 }
+=======
+@media (min-width: 700px){
+    header {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+        // position: relative;
+        display: flex;
+
+        img {
+            width: 10%;
+            // position: absolute;
+            align-items: center;
+            left: 16px;
+            top: 32px;
+        }
+
+        .btn-menu {
+            display: none;
+        }
+    }
+    
+    nav {
+        width: 60%;
+        display: inline-block;
+        background-color: transparent;
+        visibility: visible;
+        height: auto;
+        // position: absolute;
+>>>>>>> Stashed changes
 
 .hamburger-icon {
     display: block;
