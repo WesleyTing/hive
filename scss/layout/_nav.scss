@@ -39,7 +39,7 @@ nav {
     .show & {
         transition: height 0.3s ease, visibility 0s;
         visibility: visible;
-        height: 210px;
+        height: 204px;
     }
 
     ul {
@@ -49,14 +49,14 @@ nav {
     }
 
     a{
-        text-decoration: none;
+        text-decoration: none !important;
         padding: 0 20px;
         font-size: 1.2em;
         display: block;
         border-right: none;
         color: white;
         border-bottom: none;
-        border-top: 2px solid $colordark;
+        border-top: 0.2px solid rgba(57, 175, 243, 0.582);
         line-height: 40px;
     }
     
