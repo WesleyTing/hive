@@ -1,0 +1,107 @@
+// Services
+.hero-services {
+    background-image: $blackOverlay, url('/images/services/services-banner.jpg');
+
+    h1{
+        padding: 24px;
+    }
+}
+
+.services {
+    justify-content: space-between;
+    
+    @media (min-width: $desktopMQ) {
+        display: flex;
+    }
+
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .service {
+        height: 50vh;
+        margin: 36px auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        display: flex;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        @media (min-width: $desktopMQ) {
+            height: 80vh;
+            width: 23%;
+            position: relative;
+        }
+    
+        figure {
+            margin: 0;
+            figcaption {
+                margin: 18px;
+                @media (min-width: $desktopMQ) {
+                    position: absolute;
+                    top: 40%;
+                    left: 0;
+                    right: 0;
+                }
+            }
+        }
+        
+        h3 {
+            font-size: 1.5em;
+            @media (min-width: $desktopMQ) {
+                position: absolute;
+                top: 20%;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+
+// Image backgrounds
+.service-wedding {
+    background-image: $blueOverlay, url('/images/services/mobile-01.jpg');
+
+    @media (min-width: $desktopMQ) {
+        background-image: $blackOverlay, url('/images/services/services-01.jpg');
+    }
+}
+
+.service-celebrations {
+    background-image: $blueOverlay, url('/images/services/mobile-02.jpg');
+
+    @media (min-width: $desktopMQ) {
+        background-image: $blackOverlay, url('/images/services/services-02.jpg');
+    }
+}
+
+.service-company {
+    background-image: $blueOverlay, url('/images/services/mobile-03.jpg');
+
+    @media (min-width: $desktopMQ) {
+        background-image: $blackOverlay, url('/images/services/services-03.jpg');
+    }
+}
+
+.service-seasonal {
+    background-image: $blueOverlay, url('/images/services/mobile-04.jpg');
+
+    @media (min-width: $desktopMQ) {
+        background-image: $blackOverlay, url('/images/services/services-04.jpg');
+    }
+}
+
+.service-wedding,
+.service-celebrations,
+.service-company,
+.service-seasonal {
+    transition: transform 0.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

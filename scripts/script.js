@@ -1,6 +1,7 @@
-// Nav Bar
+// Dropdown Menu
 const body = document.body;
-const btn = document.querySelector('.nav-button');
+const btnMenu = document.getElementById('btn-menu');
+const nav = document.getElementById('main-navigation');
 
 const mql = window.matchMedia('(min-width: 700px)');
 

@@ -1,0 +1,29 @@
+// Forms
+
+footer{
+    // Email form styles
+    input[type=email], select, textarea {
+        width: 60%;
+        padding: 18px; 
+        border: none;
+        background-color: black;
+        color: white;
+    }
+
+    .form-border {
+        border: 1px solid white;
+        }
+
+    .email-form {
+        position: relative;
+    }
+
+
+    ::placeholder {
+        color: white;
+    }
+}
+
+
+
+

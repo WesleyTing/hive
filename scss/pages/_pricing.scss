@@ -1,0 +1,76 @@
+// Pricing Background
+.hero-pricing {
+    background-image: $blackOverlay, url('/images/pricing/pricing-banner.jpg');
+}
+
+.pricing-content-wrap {
+    text-align: center;
+    h2 {
+        padding: 18px 0;
+    }
+
+    p {
+        margin-bottom: 36px;
+    }
+}
+
+
+.pricing {
+
+
+    .pricing-box {
+        border: 3px solid #6cd0ffb7;
+        border-radius: 4px;
+        font-family: $title-font;
+        margin-bottom: 48px;
+        // font-weight: bold;
+        h2{
+            color: $colordark;
+            padding-top: 18px;
+        }
+    
+        .price{
+            font-size: 3em;
+            color: $colorlight;
+            // border-bottom: 5px solid 
+            padding-bottom: 18px;
+        }
+        .dollar-sign{
+            display: inline-block;
+            font-size: 0.5em;
+            position: relative;
+            bottom: 0.7em;
+        }
+    
+        .description {
+            display: none;
+        }
+    
+        hr {
+            width: 90%;
+            background-color: $colorlight;
+            border: none;
+            height: 1px;
+            margin: 0 auto;
+        }
+    
+        p {
+            line-height: 2;
+        }
+    
+        .list {
+            padding: 18px 0;
+        }
+    
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+
+
+
+
+

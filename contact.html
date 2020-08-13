@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HIVE | Homepage</title>
+    <title>HIVE | Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
@@ -17,13 +17,15 @@
 </head>
 <body>
 <div class="wrapper">
-<header>
-    <div class="top-bar">
-    <a href="index.html"><img src="images/hive-logo.png" alt="Icon"></a>
-        <button class="nav-button" id="nav-button">
-            <span class="hamburger-icon">&#9776;</span>
+    <header>
+        <a href="index.html"><img src="images/hive-logo.png" alt="Hive logo"></a>
+        <button class="btn-menu" id="btn-menu">
+            <span class="button-content">
+                <span class="text">Menu</span>
+                <span class="bar"></span>
+            </span><!-- end button-content -->
         </button>
-        <nav id="nav">
+        <nav id="main-navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -32,8 +34,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        </div> <!-- End Top Bar -->
-</header>
+    </header>
 <section class="hero hero-contact">
     <div class="hero-inner">
         <h1>Contact Us</h1>
@@ -198,21 +199,32 @@
 </div>
     </div><!-- /.container -->
 <footer>
-    <i class='phone-icon'>1-123-456-7890</i>
-    <i class='email-icon'>hive@hive.co</i>
-    <div>HIVE</div>
-    <i class='twitter-icon'></i>
-    <i class='facebook-icon'></i>
-    <i class='instagram-icon'></i>
-    <i class='youtube-icon'></i>
+    <div class="phone">
+        <i class='phone-icon'></i>
+        <p class="phone-text">1-123-456-7890</p>
+    </div>
+    <div class="email">
+        <i class='email-icon'></i>
+        <p class= email-text>hive@hive.co</p>
+    </div>
+    <div class="footer-title">HIVE</div>
+    <div class="social-media">
+        <i class='twitter-icon'></i>
+        <i class='facebook-icon'></i>
+        <i class='instagram-icon'></i>
+        <i class='youtube-icon'></i>
+    </div>
     <form class="email-form" action="#0">
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Email" name="email">
-        <button type="submit">SIGN UP</button>
+        <div class="form-border">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <button class="sign-up" type="submit">SIGN UP</button>
+        </div>
     </form>
-    <p>&copy; Copyright Hive. 2020</p>
+    <p class="copyright">&copy; Copyright Hive. 2020</p>
 </footer>
 </div><!-- end of wrapper-->
+<script src="scripts/jquery-3.5.1.min.js"></script>
 <script src="scripts/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js" integrity="sha512-Vp2UimVVK8kNOjXqqj/B0Fyo96SDPj9OCSm1vmYSrLYF3mwIOBXh/yRZDVKo8NemQn1GUjjK0vFJuCSCkYai/A==" crossorigin="anonymous"></script>
 </body>

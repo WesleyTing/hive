@@ -1,0 +1,65 @@
+// Homepage
+.hero-homepage {
+    background-image: $blackOverlay, url('/images/homepage/banner.jpg');
+    }
+
+.upcoming-events-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming-events-grid {
+    align-items: center;
+}
+
+.date {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.event-dubhaus, .event-dee, .event-gnaw, .event-pop {
+    width: 250px;
+}
+// Tablet view
+@media (min-width: 720px) {
+// Images section
+    .event-dubhaus, .event-dee, .event-gnaw, .event-pop {
+        width: 400px;
+    }
+
+    .date {
+        margin-left: 103px;
+    }
+}
+// Desktop view
+@media (min-width: 1000px) {
+    // Upcoming events section
+    .upcoming-events-grid {
+        display: flex;
+        flex-direction: row;
+        width: 120%;
+        margin-left: auto;
+        margin-left: -87px;
+        margin-bottom: 30px;
+    }
+
+    .date {
+        margin-left: 48px;
+    }
+}
+
+@media (min-width: 1920px) {
+    // Upcoming events section
+    .upcoming-events-grid {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin-left: 210px;
+        margin-bottom: 30px;
+    }
+
+    .date {
+        margin-left: 68px;
+    }
+}
