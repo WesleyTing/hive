@@ -11,12 +11,19 @@
 }
 
 .contact-wrapper {
-    a {
+    nav a {
         color: white;
+        font-size: 19px;
     }
 
     .container .intro {
         text-align: center;
+    }
+
+    .hero-inner {
+        h1 {
+            font-weight: bold;
+        }
     }
 
 
