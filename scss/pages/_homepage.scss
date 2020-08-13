@@ -9,25 +9,88 @@
     }
 
 
+.index-content-wrap {
+    text-align: center;
+    margin: 0 auto;
 
-.upcoming-events-intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .upcoming-events-intro {
+        padding-bottom: 26px;
+    }
+
+    .intro p {
+        max-width: 850px;
+        margin: 0 auto;
+    }
 }
+
 
 .upcoming-events-grid {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media (min-width: 700px){
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .date {
+        background-color: $colorlight;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        width: 50%;
+        color: white;
+        font-family: $title-font;
+    }
+
 }
 
 
-.event {
+.flip-container {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+
+    .dj-name {
+        background-color: $colorlight;
+        color: white;
+        padding: 8px;
+    }
+
+    .card-events {
+        padding: 26px;
+        font-style: italic;
+        line-height: 2.5em;
+        text-align: center;
+    }
+
+    .social-media {
+        position: absolute;
+        bottom: 20%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .phone-icon,
+    .email-icon,
+    .twitter-icon,
+    .facebook-icon,
+    .instagram-icon,
+    .youtube-icon {
+    height: 64px;
+    width: 64px;
+    }
+}
+
+
+.flipper {
     background-color: #fff;
     border-radius: 2px;
-    height: 350px;
+    height: 400px;
     margin: 1rem;
-    position: relative;
     width: 100%;
+    position: relative;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     
@@ -36,7 +99,7 @@
     }
 
     .caption {
-        margin-top: 22px;
+        padding-top: 16px;
         text-align: center;
         line-height: 1.5em;
         width: 100%;
@@ -44,7 +107,7 @@
 
     .date {
         position: absolute;
-        bottom: 25%;
+        bottom: 30%;
         left: 25%;
         height: 35px;
         display: flex;
@@ -59,35 +122,43 @@
 
   }
 
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
 
-// Desktop view
-@media (min-width: 1000px) {
-    // Upcoming events section
-    .upcoming-events-grid {
-        display: flex;
-        flex-direction: row;
-        width: 120%;
-        margin-left: auto;
-        margin-left: -87px;
-        margin-bottom: 30px;
-    }
-
-    .date {
-        margin-left: 48px;
-    }
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
 }
 
-@media (min-width: 1920px) {
-    // Upcoming events section
-    .upcoming-events-grid {
-        display: flex;
-        flex-direction: row;
-        width: 75%;
-        margin-left: 210px;
-        margin-bottom: 30px;
-    }
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+}
 
-    .date {
-        margin-left: 68px;
-    }
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
 }
