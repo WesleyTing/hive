@@ -169,13 +169,16 @@ nav {
     }
     
     nav {
-        width: 70%;
+        width: 80%;
         background-color: transparent;
         visibility: visible;
         height: auto;
         position: absolute;
         right: 16px;
         top: 16px;
+        @media (min-width: 900px){
+            width:70%;
+        }
 
         ul {
             display: flex;
