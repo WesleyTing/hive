@@ -16,14 +16,26 @@
 
 
 .pricing {
+    
+    @media (min-width: 800px){
+        display: flex;
+    }
 
 
     .pricing-box {
         border: 3px solid #6cd0ffb7;
         border-radius: 4px;
         font-family: $title-font;
+        margin: 0 auto;
         margin-bottom: 48px;
-        // font-weight: bold;
+        max-width: 400px;
+
+        @media (min-width: 800px){
+            width: 30%;
+        }
+
+
+        
         h2{
             color: $colordark;
             padding-top: 18px;
@@ -44,6 +56,10 @@
     
         .description {
             display: none;
+            @media (min-width: 500px){
+                display: block;
+                padding: 0 28px 28px;
+            }
         }
     
         hr {
@@ -60,11 +76,16 @@
     
         .list {
             padding: 18px 0;
+            
+            p {
+                line-height: 3;
+                @media (min-width: 500px){
+                    line-height: 4;
+                }
+            }
         }
     
-        &:last-child {
-            margin-bottom: 0;
-        }
+
     }
 
 }
