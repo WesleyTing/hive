@@ -1,13 +1,8 @@
 // Main Navigation Styles
 
-<<<<<<< Updated upstream
-header a {
-    text-decoration: none;
-=======
 // Header Style
 
 header {
->>>>>>> Stashed changes
     color: white;
 }
 
@@ -43,12 +38,6 @@ header {
     outline: none;
 }
 
-<<<<<<< Updated upstream
-.nav-button:hover {
-    color: rgb(255, 188, 0);
-    transition: color 1s ease;
-}
-=======
 @media (min-width: 700px){
     header {
         display: block;
@@ -77,7 +66,7 @@ header {
         visibility: visible;
         height: auto;
         // position: absolute;
->>>>>>> Stashed changes
+    }
 
 .hamburger-icon {
     display: block;
@@ -112,4 +101,5 @@ header {
 .top-bar nav a:active,
 .top-bar nav a:focus {
     background-color: rgba(255, 187, 0, 0.336);
+}
 }
