@@ -12,11 +12,14 @@ header {
     width: 100%;
     z-index: 100;
     text-align: center;
-    transition: all 1s ease;
+    // transition: all 1s ease;
     
     img {
-        width: 4em;
-        display: block;
+        width: 100px;
+        position: absolute;
+        align-items: center;
+        left: 16px;
+        top: 12px;
     }
 }
 
@@ -26,6 +29,8 @@ nav {
     height: 0;
     visibility: hidden;
     overflow: hidden;
+    text-transform: uppercase;
+    font-family: $title-font;
 
     &.activated {
         transition: height 0.3s ease, visibility 0s 0.3s;
@@ -150,14 +155,12 @@ nav {
         display: block;
         width: 100%;
         justify-content: space-between;
-        // position: relative;
+        position: relative;
+        padding: 0;
 
         img {
-            width: 10%;
-            position: absolute;
-            align-items: center;
             left: 16px;
-            top: 32px;
+            top: 24px;
         }
 
         .btn-menu {
@@ -166,12 +169,13 @@ nav {
     }
     
     nav {
-        width: 60%;
-        display: inline-block;
+        width: 70%;
         background-color: transparent;
         visibility: visible;
         height: auto;
         position: absolute;
+        right: 16px;
+        top: 16px;
 
         ul {
             display: flex;
@@ -182,7 +186,6 @@ nav {
         }
 
         a {
-            
             line-height: 42px;
             text-align: center;
             border-top: none;
