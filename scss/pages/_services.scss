@@ -1,6 +1,6 @@
 // Services
 .hero-services {
-    background-image: $blackOverlay, url('/images/services/services-banner.jpg');
+    background-image: $blackOverlay, url('../images/services/services-banner.jpg');
 
     h1{
         padding: 36px;
@@ -65,34 +65,34 @@
 
 // Image backgrounds
 .service-wedding {
-    background-image: $blueOverlay, url('/images/services/mobile-01.jpg');
+    background-image: $blueOverlay, url('../images/services/mobile-01.jpg');
 
     @media (min-width: $desktopMQ) {
-        background-image: $blackOverlay, url('/images/services/services-01.jpg');
+        background-image: $blackOverlay, url('../images/services/services-01.jpg');
     }
 }
 
 .service-celebrations {
-    background-image: $blueOverlay, url('/images/services/mobile-02.jpg');
+    background-image: $blueOverlay, url('../images/services/mobile-02.jpg');
 
     @media (min-width: $desktopMQ) {
-        background-image: $blackOverlay, url('/images/services/services-02.jpg');
+        background-image: $blackOverlay, url('../images/services/services-02.jpg');
     }
 }
 
 .service-company {
-    background-image: $blueOverlay, url('/images/services/mobile-03.jpg');
+    background-image: $blueOverlay, url('../images/services/mobile-03.jpg');
 
     @media (min-width: $desktopMQ) {
-        background-image: $blackOverlay, url('/images/services/services-03.jpg');
+        background-image: $blackOverlay, url('../images/services/services-03.jpg');
     }
 }
 
 .service-seasonal {
-    background-image: $blueOverlay, url('/images/services/mobile-04.jpg');
+    background-image: $blueOverlay, url('../images/services/mobile-04.jpg');
 
     @media (min-width: $desktopMQ) {
-        background-image: $blackOverlay, url('/images/services/services-04.jpg');
+        background-image: $blackOverlay, url('../images/services/services-04.jpg');
     }
 }
 
