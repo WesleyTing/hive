@@ -1,7 +1,7 @@
 .phone {
   display: flex;
   align-items: center;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 
   .phone-icon {
     content: url('/images/icons/phone-icon.png');
@@ -9,14 +9,14 @@
   }
 
   .phone-text {
-    margin-left: 36px;
+    margin-left: 18px;
   }
 }
 
 .email {
   display: flex;
   align-items: center;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 
   .email-icon {
     content: url('/images/icons/email-icon.png');
@@ -24,14 +24,14 @@
   }
 
   .email-text {
-    margin-left: 36px;
+    margin-left: 18px;
   }
 }
 
 .social-media {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 48px;
+  padding-bottom: 28px;
 
   .twitter-icon {
     content: url('/images/icons/twitter-icon.png');
@@ -61,8 +61,8 @@
 .facebook-icon,
 .instagram-icon,
 .youtube-icon {
-  height: 48px;
-  width: 48px;
+  height: 32px;
+  width: 32px;
   cursor: pointer;
 }
 

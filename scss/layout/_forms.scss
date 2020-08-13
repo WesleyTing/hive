@@ -2,8 +2,13 @@
 
 footer{
     // Email form styles
+
+    form {
+        position: relative;
+    }
+
     input[type=email], select, textarea {
-        width: 60%;
+        width: 100%;
         padding: 18px; 
         border: none;
         background-color: black;
