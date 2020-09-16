@@ -17,9 +17,29 @@
         padding-bottom: 26px;
     }
 
-    .intro p {
-        max-width: 850px;
+    .intro h2{
+        margin-bottom: 26px;
+    }
+
+
+    .intro p, .cta {
+        max-width: 600px;
         margin: 0 auto;
+        text-align: justify; 
+        padding-top: 0;
+    }
+
+    .cta {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .cta-link {
+        margin-top: 20px;
+    }
+    .cta-link a {
+        text-decoration: none;
+        color: black;
     }
 }
 
